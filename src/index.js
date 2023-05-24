@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Class_learn from './class_learn';
-// import Accordion from './class_learn';
-// import PropsClass from './propsClass';
+import Class_learn from './class_learn';
+import Accordion from './class_learn';
+import PropsClass from './propsClass';
 import Form from './form_file';
 import Table_file from './table_file';
 const root = ReactDOM.createRoot(document.getElementById('root'));
