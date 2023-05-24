@@ -50,21 +50,7 @@ export default class ChildComponent extends Component {
         <h3>{title}</h3>
         {/* <p>{children}</p> */}
         {this.getdata()}
-        {/* {this.state.isActive 
-        ? (
-            <>
-          <p>{children}</p>
-          <button onClick={() => this.setState({isActive: false})}>
-              Hide
-            </button>
-            </>
-        )
-        : (
-          <button onClick={() => this.setState({isActive: true})}>
-            Show
-          </button>
-        )
-        }  */}
+      
       </section>
     )
   }
